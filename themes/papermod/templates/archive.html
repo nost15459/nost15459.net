@@ -28,7 +28,7 @@
             {% set formatted_date_short = post.date | date(format=config.extra.papermod.date_format) %}
             <div class="archive-entry">
                 <h3 class="archive-entry-title">{{ post.title }}</h3>
-                <div class="archive-meta"><span title="{{ formatted_date_long }}">{{ formatted_date_short }}</span>&nbsp;·&nbsp;{{ post.reading_time }} min&nbsp;·&nbsp;{{ post.author | default(value=config.author) }}</div>
+                <div class="archive-meta"><span title="{{ formatted_date_long }}">{{ formatted_date_short }}</span></div>
                 <a class="entry-link" aria-label="post link to {{ post.title }}" href="{{ post.permalink }}"></a>
             </div>
             {% endfor %}
