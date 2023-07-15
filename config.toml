@@ -47,8 +47,8 @@ navigation = [
 home_title = "PaperMod"
 home_content = "Welcome to a demo of the PaperMod theme!<br><b>PaperMod</b> is a simple but fast and responsive theme with a useful feature-set that enhances UX.<br>Do give a 🌟 on Github !<br>PaperMod is based on the hugo-PaperMod theme."
 social_icons = [
-    { url = "https://github.com/cydave", title = "GitHub", icon = "github" },
-    { url = "https://infosec.exchange/@cydave", title = "Mastodon", icon = "mastodon" },
-    { url = "https://twitter.com/_cydave", title = "Twitter", icon = "twitter" },
+    { url = "https://github.com/nost15459", title = "GitHub", icon = "github" },
+    { url = "https://mstdn.maud.io/@nost15459", title = "Mastodon", icon = "mastodon" },
+    { url = "https://twitter.com/nost15459", title = "Twitter", icon = "twitter" },
     { url = "$BASE_URL/atom.xml", title = "RSS", icon = "rss" },
 ]
