@@ -1,4 +1,4 @@
-{% set posts = get_section(path="posts/_index.md") %}
+{% set posts = get_section(path="blog/_index.md") %}
 {% for page in posts.pages | slice(end=10) %}
 <article class="post-entry">
   <header class="entry-header">

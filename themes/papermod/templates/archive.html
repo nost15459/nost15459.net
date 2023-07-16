@@ -12,7 +12,7 @@
     </a>
   </h1>
 </header>
-{% set posts_section = get_section(path="posts/_index.md") %}
+{% set posts_section = get_section(path="blog/_index.md") %}
 {% set yearly_posts = posts_section.pages | group_by(attribute="year") %}
 {% for year, posts in yearly_posts %}
 <div class="archive-year">
