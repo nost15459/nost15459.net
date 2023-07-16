@@ -59,6 +59,9 @@
             {% for item in config.extra.papermod.navigation %}
             {% set url = item.url | replace(from='$BASE_URL', to=config.base_url) %}
             {% set is_active_link = current_url and url | trim_end_matches(pat="/") == current_url | trim_end_matches(pat="/") %}
+            {% set is_blog_nav = url | trim_end_matches(pat="/") == config.base_url ~ "/blog" %}
+            {% set is_blog_page = current_url and current_url | trim_end_matches(pat="/") | split(pat="/") | slice(end=-1) == config.base_url ~ "/blog/page" | split(pat="/") %}
+            {% set is_active_link = is_active_link or is_blog_nav and is_blog_page %}
             <li>
                 <a href="{{ url }}" title="{{ item.title }}">
                     <span{% if is_active_link %} class="active"{% endif %}>{{ item.title }}</span>
