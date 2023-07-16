@@ -24,9 +24,9 @@ highlight_code = true
 # Put all your custom variables here
 
 [extra.papermod]
-title = "PaperMod"
+title = "nost15459.net"
 default_theme = "auto"
-theme = "light"
+theme = "dark"
 language_direction = "auto"
 keywords = []
 show_theme_toggle = true
@@ -44,11 +44,12 @@ navigation = [
     { url = "$BASE_URL/about", title = "About" },
 ]
 
-home_title = "PaperMod"
-home_content = "Welcome to a demo of the PaperMod theme!<br><b>PaperMod</b> is a simple but fast and responsive theme with a useful feature-set that enhances UX.<br>Do give a 🌟 on Github !<br>PaperMod is based on the hugo-PaperMod theme."
+home_title = "todo!()"
+home_content = "todo!()"
 social_icons = [
     { url = "https://github.com/nost15459", title = "GitHub", icon = "github" },
     { url = "https://mstdn.maud.io/@nost15459", title = "Mastodon", icon = "mastodon" },
     { url = "https://twitter.com/nost15459", title = "Twitter", icon = "twitter" },
+    { url = "https://discord.com/users/1124050777833488425", title = "Discord", icon = "discord" },
     { url = "$BASE_URL/atom.xml", title = "RSS", icon = "rss" },
 ]
