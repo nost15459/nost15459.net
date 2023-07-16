@@ -28,7 +28,7 @@ The following HTML `<h1>`—`<h6>` elements represent six levels of section head
 ###### H6
 
 ## Footnote
-ただしくなくて、ただ、いとおしい。<cite>[^2]</cite>
+ただしくなくて、ただ、いとおしい。[^1]
 
 # Paragraph
 
@@ -49,9 +49,9 @@ The blockquote element represents content that is quoted from another source, op
 
 > Don't communicate by sharing memory, share memory by communicating.
 >
-> — <cite>Rob Pike[^1]</cite>
+> — <cite>Rob Pike[^2]</cite>
 
-[^1]: The above quote is excerpted from Rob Pike's [talk](https://www.youtube.com/watch?v=PAAkCSZUG1c) during Gopherfest, November 18, 2015.
+[^2]: The above quote is excerpted from Rob Pike's [talk](https://www.youtube.com/watch?v=PAAkCSZUG1c) during Gopherfest, November 18, 2015.
 
 # Tables
 
@@ -180,4 +180,4 @@ Press <kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd></kbd> to end the ses
 
 Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.
 
-[^2]: またぞろ。単行本1巻の帯
+[^1]: またぞろ。単行本1巻の帯
