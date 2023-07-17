@@ -1,5 +1,6 @@
 {% set posts = get_section(path="blog/_index.md") %}
-<h2>Recent posts</h2>
+{% if posts | length != 0 %}
+<p><h2>Recent posts</h2></p>
 <br>
 {% for page in posts.pages | slice(end=3) %}
 <article class="post-entry">
@@ -17,3 +18,4 @@
   <a class="entry-link" aria-label="post link to {{ page.title }}" href="{{ page.permalink }}"></a>
 </article>
 {% endfor %}
+{% endif %}

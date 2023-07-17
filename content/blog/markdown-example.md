@@ -28,7 +28,9 @@ The following HTML `<h1>`—`<h6>` elements represent six levels of section head
 ###### H6
 
 ## Footnote
-ただしくなくて、ただ、いとおしい。[^1]
+ただしくなくて、ただ、いとおしい。{{ fnref(index=1) }}
+
+イン{{ fnref(index=2) }}ライン
 
 # Paragraph
 
@@ -180,4 +182,7 @@ Press <kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd></kbd> to end the ses
 
 Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.
 
-[^1]: またぞろ。単行本1巻の帯
+---
+
+{{ fndef(index=1,content="**またぞろ。** 単行本1巻の帯") }}
+{{ fndef(index=2,content="[リンク](https://www.example.com/)") }}

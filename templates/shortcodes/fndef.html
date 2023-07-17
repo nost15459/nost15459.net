@@ -1,0 +1,9 @@
+{% set id = "fndef:" ~ index %}
+{% set href = "#fnref:" ~ index %}
+<div class="footnote-definition" id="{{ id }}">
+    <p>
+        <span class="footnote-definition-label">{{ index }}</span>
+        <span>:</span>
+        <span>{{ content | markdown(inline=true) | safe }} <a href="{{ href }}">↩︎</a></span>
+    </p>
+</div>
