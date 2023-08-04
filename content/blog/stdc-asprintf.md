@@ -39,10 +39,12 @@ int myasprintf(char **bufp,const char * restrict format,...){
     va_list arg;
 
     va_start(arg, format);
-    int len = vsnprintf(NULL,0,format,arg) + /* '\0' */ 1;
+    int len = vsnprintf(NULL,0,format,arg);
     va_end(arg);
 
     if (len < 0) return -1;
+
+    len++; // '\0'
 
     *bufp = malloc(len);
     if(!*bufp) return -1;
